@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!-- -->
+<html>
+    <head>
+        <title>Adopciones Mejor Amigo</title>
+        <link rel="stylesheet" href="css/adopciones.css">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    </head>
+
+    <body>
+        <div class="container">
+            <!--Nav bar, banner -->
+            <div class="navbar">
+                <img class="logo" src="images/MejorAmigo.png" alt="Logo de Albergue Mejor Amigo"/>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">Sobre nosotros</a></li>
+                        <li><a href="adopciones.html">Adopciones</a></li>
+                        <li><a href="servicios.html">Servicios</a></li>   
+                        <li><a href="galeria.html">Galeria</a></li>
+                        <li><a href="donar.html">Donaciones</a></li>
+                        <li><a href="historiasExito.html">Historias de exito</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </nav>
+                
+            </div>
+
+            <div class="banner">
+                <video autoplay loop muted>
+                    <source src="videos/mistic.mp4" type="video/mp4">
+                    Your browser does not support the <code>video</code> tag. -->
+                </video>
+                <div class="h1Pg">
+                    <h1>ADOPCIONES</h1>
+                </div>
+            </div>
+            <!--Main content -->
+            <div class="content">
+                <h2>Gracias por mostrar interes en adoptar o brindar casa cuna a uno de nuestros animales rescatados.
+                Porfavor proceda a llenar el siguiente formulario y nos pondremos en contacto a la brevedad</h2>
+                
+                <div class="formulario">   
+                <form method="get">
+                    <div class ="txt_field">
+                        <label>Nombre y apellidos:</label>                    
+                        <input type ="text" required>
+                    </div>
+                    
+                    <div class ="txt_field">
+                        <label>Edad (debe ser mayor a 18 años):</label>
+                        <input type ="number" min="18" max="90" required >
+                    </div>
+                    
+                    <div class ="txt_field">
+                        <label>Correo eletrónico:</label>
+                        <input type ="email" required >
+                    </div>
+                    
+                    <div class ="txt_field">
+                        <label>Dirección de domicilio</label><br>
+                        <label>Provincia:</label>
+                        <input type ="text" required >
+                        <label>Cantón:</label>
+                        <input type ="text" required >
+                        <label>Distrito:</label>
+                        <input type ="text" required >
+                    </div>
+                    
+                    <div class ="txt_field">
+                    <label>Número telefónico:</label>    
+                    <input type="tel" pattern="[1-9]{4}-[0-9]{4}" placeholder="########" required>
+                    </div>
+                    
+                    <div class ="txt_field">
+                        <label>Me interesa:</label>
+                        <br>
+                        <input type="radio" id="CasaCuna" name="eleccion" value="Casa Cuna">
+                         <label for="CasaCuna">Brindar Casa Cuna</label><br>
+                         <input type="radio" id="Adopcion" name="eleccion" value="Adopcion">
+                         <label for="Adopcion">Adopción</label>
+                    </div>
+                    
+                    <div class ="txt_field">
+                        <label>Cuantas mascotas hay ya en su hogar:</label>
+                        <input type ="number" min="0" max="40" required >
+                    </div>
+                    
+                    <div class ="txt_field">
+                        <label>Nombre del animal que te interesa:</label>                    
+                        <input type ="text" required>
+                    </div>
+                    
+                    <div class ="txt_field">
+                        <label>Fecha disponible para visitar el albergue:</label> 
+                        <input type="date" required>                                           
+                    </div>
+                    <br>
+                    <br>
+                    <input type ="submit" value ="Enviar">
+                    <br>
+                    <br>
+                    <input type="reset" value="Limpiar Formulario">                               
+            </form>
+            </div>   
+            </div>
+            
+            <!--Footer -->
+            <footer id="piePagina">
+                <div  class="rights">Derechos reservados &COPY; 2022  <address class="rights">All Dogs go to Heaven</address>
+                </div> 
+                <div class="social">
+                    <a href="https://www.facebook.com/"><img class="iconLink" src="images/facebook.png" alt="Logo de Facebook"></a>
+                    <a href="https://www.instagram.com/"><img class="iconLink" src="images/instagram.png" alt="Logo de Instagram"></a>
+                </div>
+            </footer>
+        </div>        
+    </body>
+</html>
